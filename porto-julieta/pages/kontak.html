@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak | Portofolio Digital</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="../index.html" class="logo">Portofolio.Julieta Abdau Izzati</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">🏠 Beranda</a></li>
+                <li><a href="tentang.html">👤 Tentang Saya</a></li>
+                <li><a href="jaringan.html">🌐 Jaringan Komputer</a></li>
+                <li><a href="iot-arduino.html">🤖 IoT & Arduino</a></li>
+                <li><a href="karya-proyek.html">💡 Galeri Proyek</a></li>
+                <li><a href="kontak.html" class="active">📬 Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="section-header">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <p class="section-desc">Silakan kirimkan pesan, pertanyaan, atau ajakan kolaborasi proyek melalui formulir di bawah ini.</p>
+        </div>
+
+        <div class="contact-wrapper">
+            <!-- Formulir Pesan -->
+            <section class="card">
+                <div class="card-body">
+                    <h3>Kirim Pesan Langsung</h3>
+                    <form action="#" method="POST" style="margin-top: 1rem;">
+                        <div class="form-group">
+                            <label for="nama">Nama Pengirim</label>
+                            <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap Anda" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Alamat Email</label>
+                            <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="kategori">Kategori Pesan</label>
+                            <select id="kategori" name="kategori">
+                                <option value="pertanyaan">Pertanyaan</option>
+                                <option value="kolaborasi">Kolaborasi</option>
+                                <option value="saran">Saran</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pesan">Pesan Teks</label>
+                            <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim Pesan</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Informasi Kontak Alternatif -->
+            <section class="card">
+                <div class="card-body">
+                    <h3>Informasi Kontak Alternatif</h3>
+                    <p style="margin-bottom: 1.2rem;">Jika ingin berdiskusi mengenai tugas sekolah, proyek pemrograman, atau kolaborasi, silakan hubungi melalui kontak berikut:</p>
+                    
+                    <div class="contact-item">
+                        <strong>📧 Email Sekolah</strong>
+                        <span>anonim@example.com</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <strong>📍 Lokasi Kota</strong>
+                        <span>Mojokerto, Jawa Timur, Indonesia</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <strong>🏫 Instansi</strong>
+                        <span>Laboratorium Informatika Kelas XII</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Julieta Abdau Izzati - Informatika Kelas XII.</p>
+    </footer>
+
+</body>
+</html>
